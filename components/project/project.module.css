@@ -1,0 +1,47 @@
+.heading{
+    margin: 2rem;
+    text-align: center;
+}
+.heading::after{
+    border-bottom: black;
+    background-color: black;
+}
+.productbox{
+    padding: 0%;
+    margin: 4rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    text-align: center;
+}
+.productItem{
+    padding: 0%;
+    margin:0%;
+    text-align: center;
+    justify-content: center;
+}
+.productImage{
+    height: fit-content;
+}
+.imgTag{
+    width: 400px;
+    height: 500px;
+}
+.productData{
+    border: 0.3px solid rgb(236, 233, 233);
+}
+.productHeading{
+    margin: 1rem;
+}
+.productDescription{
+
+}
+.productButtons{
+    margin: 1rem;
+}
+
+@media(max-width:600px){
+    .productbox{
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+}

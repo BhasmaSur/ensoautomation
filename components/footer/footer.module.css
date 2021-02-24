@@ -1,0 +1,22 @@
+.footerbg{
+  height: fit-content;
+  background-color: cadetblue;
+}
+.databox{
+  text-align: center;
+}
+.content{
+  margin: 1rem;
+}
+.ptag{
+  margin: 0.1rem;
+}
+.heading{
+  margin: 1rem;
+}
+.followicon{
+margin:0.7rem
+}
+.copyright{
+  text-align: center;
+}
