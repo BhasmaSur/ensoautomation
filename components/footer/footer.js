@@ -81,7 +81,7 @@ export const FOOTER = () => {
                      alt="First slide"
                      height="12"
                      />&nbsp;
-                     by Tanmay Dengle</p>
+                     by Enso</p>
              </div>
             </div>
         </div>
