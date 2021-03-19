@@ -1,0 +1,80 @@
+.box{
+    padding: 3rem;
+    padding-left: auto;
+}
+.heading1{
+    margin-top: 2rem;
+    text-align: center;
+    font: normal normal normal 20px/24px Proxima Nova;
+    letter-spacing: 0px;
+    color: #1D3558;
+    opacity: 1;
+}
+.heading2{
+    margin-top: 2rem;
+    text-align: center;
+    font: normal normal normal 64px/74px Baskerville;
+    letter-spacing: 0px;
+    color: #1D3558;
+    opacity: 1;
+}
+.heading3{
+    width: 70%;
+    margin: auto;
+    margin-top: -1rem;
+    text-align: left;
+    font: normal normal normal 64px/74px Baskerville;
+    letter-spacing: 0px;
+    color: #1D3558;
+    opacity: 1;
+}
+.sectionHeading1{
+    margin:auto;
+    margin-bottom: 1rem;
+    text-align: left;
+    font: normal normal bold 24px/30px Proxima;
+    letter-spacing: 0px;
+    color: #1D3558;
+    opacity: 1;
+}
+.sectionHeading2{
+    margin:auto;
+    margin-bottom: 3rem;
+    text-align: left;
+    font: normal normal bold 24px/30px Proxima;
+    letter-spacing: 0px;
+    color: rgb(199, 194, 194);
+    opacity: 1;
+}
+.box2{
+    margin: auto;
+    margin-top: 3rem;
+}
+.sectionContentRow{
+    margin:0.2rem;
+    text-align: left;
+    font: normal normal normal 24px/30px Proxima Nova;
+    letter-spacing: 0px;
+    color: #1D3558;
+    opacity: 1;
+}
+
+.sectionBreak{
+    height: 3rem;
+}
+.leftMargin1{
+    padding-left: 0rem;
+}
+.leftMargin2{
+    padding-left: auto;
+}
+.lineBox{
+    background:#FFFFFF ;
+    margin-top: 1rem;
+  }
+  .lineBreak{
+    margin: auto;
+    width: 90%;
+    border: solid 2px;
+    background: #1D3558;
+  }

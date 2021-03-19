@@ -4,3 +4,102 @@
 .carousel-item img{
     height: 10px;
 }
+.box1{
+    height: 41.68125rem;
+}
+.box1data1{
+    margin-top: 2rem;
+    text-align: center;
+    font: normal normal normal 1.25rem/4.625rem ProximaRegular;
+    letter-spacing: 0px;
+    color: #1D3558;
+    opacity: 1;
+}
+.box1data21{
+    width: 70%;
+    margin: auto;
+    margin-top: 3rem;
+    text-align: center;
+    font: normal normal normal 4rem/4.625rem Baskerville;
+    letter-spacing: 0px;
+    color: #1D3558;
+    opacity: 1;
+}
+.box1data22{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font: normal normal normal 4rem/4.625rem Baskerville;
+    letter-spacing: 0px;
+    color: #1D3558;
+    opacity: 1;
+}
+.box1data3{
+    width: 50%;
+    margin: auto;
+    margin-top: 3rem;
+    line-height: 2.5rem !important;
+    padding:0;
+    text-align: center;
+    font: normal normal normal 1.25rem/4.625rem ProximaRegular;
+    letter-spacing: 0px;
+    color: #1D3558;
+    opacity: 1;
+}
+.boxc1{
+    position: absolute;
+    bottom: 1.25rem;
+    left: 56%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    top: 2%;
+}
+.boxc2{
+    position: absolute;
+    bottom: 1.25rem;
+    left: 45%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    top: 2%;
+}
+.boxc3{
+    width: 60%;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 3%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    top: 2%;
+}
+.boxHeading{
+    height: 113px;
+    text-align: left;
+    font: normal normal normal 3rem/3.625rem Baskerville;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.boxCaption{
+    text-align: left;
+    font: normal normal normal 1.25rem/1.875rem ProximaRegular;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.boxCaption2{
+    margin-top: -1rem;
+    text-align: left;
+    font: normal normal normal 1.25rem/1.875rem ProximaRegular;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.caraouslBox{
+    margin: 1rem;
+}

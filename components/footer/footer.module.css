@@ -1,22 +1,97 @@
-.footerbg{
-  height: fit-content;
-  background-color: cadetblue;
+.box{
+  padding:3rem;
+  padding-left: 0rem;
+  background: #F1FAEE;
 }
-.databox{
-  text-align: center;
+.content1{
+  padding-left:3rem;
+  padding-top: 2rem;
+  text-align: left;
+  font: normal normal normal 16px/24px ProximaRegular;
+  letter-spacing: 0px;
+  color: #1D3558;
+  opacity: 1;
 }
-.content{
-  margin: 1rem;
+.heading1{
+  padding-left: 8rem;
+  padding-top: 2rem;
+  text-align: left;
+  font: normal normal normal 28px/58px Baskerville;
+  letter-spacing: 0px;
+  color: #1D3558;
+  opacity: 1;
 }
-.ptag{
-  margin: 0.1rem;
+.content2{
+  padding-left: 8rem;
+  text-align: left;
+  font: normal normal normal 16px/24px ProximaRegular;
+  letter-spacing: 0px;
+  color: #1D3558;
+  opacity: 1;
 }
-.heading{
-  margin: 1rem;
+.inputBox{
+  text-align: left;
 }
-.followicon{
-margin:0.7rem
+.inputField1{
+  width: 100%;
+  height: 60px;
+  padding-left: 1rem;
+  margin-bottom: .2rem;
+  border: 1px solid #8E9AAB;
+  font: normal normal normal 16px/24px ProximaRegular;
+  opacity: 1;
+}
+.inputField2{
+  width: 100%;
+  height: 127px;
+  padding-left: 1rem;
+  border: 1px solid #8E9AAB;
+  font: normal normal normal 16px/24px ProximaRegular;
+  opacity: 1;
+}
+
+.btnBox{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+.btn{
+  width: 100px;
+  height: wrap;
+  color: #FFFFFF;
+  background: #1D3558 ;
+  opacity: 1;
+  border-radius: 0.2rem;
+} 
+.bg{
+  padding-top: 1rem;
+  background: #F1FAEE;
+}
+.rightBox{
+  margin: 0;
+  width: 100%;
+  padding-left: 2rem;
 }
 .copyright{
+  text-align: left;
+  font: normal normal normal 14px/24px ProximaRegular;
+  letter-spacing: 0px;
+  color: #1D3558;
+  opacity: 1;
+}
+.madeBy{
   text-align: center;
+  font: normal normal normal 14px/24px ProximaRegular;
+  letter-spacing: 0px;
+  color: #1D3558;
+  opacity: 1;
+}
+.lineBox{
+  background:#F1FAEE ;
+}
+.lineBreak{
+  margin: auto;
+  width: 90%;
+  background: #1D3558;
 }

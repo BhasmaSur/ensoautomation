@@ -14,3 +14,29 @@ a {
 * {
   box-sizing: border-box;
 }
+.navbarlinks{
+  font: normal normal normal 20px/24px Proxima Nova;
+  color: #1D3558;
+}
+@font-face {
+  font-family: "Proxima";
+  src: url("/fonts/proxima_ssv/Proxima Nova Extrabold.otf");
+  font-style: medium;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ProximaThin";
+  src: url("/fonts/proxima_ssv/Proxima Nova Thin.otf");
+  font-style: medium;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "ProximaRegular";
+  src: url("/fonts/proxima_ssv/ProximaNova-Regular.otf");
+  font-style: medium;
+  font-weight: 500;
+  font-display: swap;
+}

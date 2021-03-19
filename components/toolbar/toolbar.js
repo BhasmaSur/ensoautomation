@@ -1,21 +1,27 @@
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
+import styles from '../toolbar/toolbar.module.css'
+import {useRef} from 'react';
+export const TOOLBAR = (props) => {
 
 
-export const TOOLBAR = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="transparent" variant="dark">
-      <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+    <Navbar  collapseOnSelect expand="lg" bg="light" fixed="top" variant="dark">
+      <Navbar.Brand href="#home">
+      <img
+                    className="d-block w-100"
+                    src="/images/logo.PNG"
+                    alt="First slide"
+                />
+      </Navbar.Brand>
+      <Navbar.Toggle className={styles.navbartogglericonCustom} aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
         <Nav>
-          <Nav.Link href="#features">Home</Nav.Link>
-          <Nav.Link href="#pricing">About</Nav.Link>
-          <Nav.Link href="#pricing">Products</Nav.Link>
-          <Nav.Link href="#pricing">Applications</Nav.Link>
-          <Nav.Link href="#pricing">Our Services</Nav.Link>
-          <Nav.Link href="#pricing">Projects</Nav.Link>
+          <Nav.Link className={styles.navbarlinks} onClick={()=>props.navigatToFunction(1)}>Home</Nav.Link>
+          <Nav.Link className={styles.navbarlinks} onClick={()=>props.navigatToFunction(2)}>About</Nav.Link>
+          <Nav.Link className={styles.navbarlinks} onClick={()=>props.navigatToFunction(3)}>Our Services</Nav.Link>
+          <Nav.Link className={styles.navbarlinks} onClick={()=>props.navigatToFunction(4)}>Applications</Nav.Link>
           {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
                     <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                     <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
@@ -29,7 +35,7 @@ export const TOOLBAR = () => {
                 <Nav.Link eventKey={2} href="#memes">
                     Dank memes
                  </Nav.Link> */}
-          <button type="button" className="btn-light rounded-3">Contact Us</button>
+          <button type="button" onClick={()=>props.navigatToFunction(5)} className={styles.btn}>Contact Us</button>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

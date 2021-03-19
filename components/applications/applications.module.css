@@ -1,0 +1,67 @@
+.box{
+    padding: 3rem;
+    background: #F7F7F8;
+}
+.heading1{
+    margin-top: 2rem;
+    text-align: center;
+    font: normal normal normal 20px/24px ProximaRegular;
+    letter-spacing: 0px;
+    color: #1D3558;
+    opacity: 1;
+}
+.heading2{
+    margin-top: 2rem;
+    text-align: center;
+    font: normal normal normal 64px/74px Baskerville;
+    letter-spacing: 0px;
+    color: #1D3558;
+    opacity: 1;
+}
+.heading3{
+    width: 60%;
+    margin: auto;
+    margin-top: 2rem;
+    text-align: center;
+    font: normal normal normal 20px/30px ProximaRegular;
+    letter-spacing: 0px;
+    color: #1D3558;
+    opacity: 1;
+}
+.sectionHeading{
+    margin:auto;
+    margin-bottom: 3rem;
+    text-align: left;
+    font: normal normal bold 24px/30px ProximaRegular;
+    letter-spacing: 0px;
+    color: #1D3558;
+    opacity: 1;
+}
+.box2{
+    
+    margin: auto;
+    margin-top: 3rem;
+    padding-left: auto;
+}
+.sectionContentRow{
+    margin:0.2rem;
+    text-align: left;
+    font: normal normal normal 24px/30px ProximaRegular;
+    letter-spacing: 0px;
+    color: #1D3558;
+    opacity: 1;
+}
+
+.sectionBreak{
+    height: 3rem;
+}
+.lineBox{
+    background:#F7F7F8 ;
+    margin-top: 1rem;
+  }
+  .lineBreak{
+    margin: auto;
+    width: 90%;
+    border: solid 2px;
+    background: #1D3558;
+  }

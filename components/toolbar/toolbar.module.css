@@ -1,0 +1,22 @@
+.navbarlinks{
+    font: normal normal normal 20px/24px Proxima Nova;
+    color: #1D3558 !important;
+}
+.btn{
+    width: 169px;
+    height: 72px;
+    background: #1D3558 !important;
+    color: #FFFFFF;
+    opacity: 1;
+    border-radius: 1rem;
+}
+.navbartogglericonCustom {
+    display: inline-block;
+    width: wrap;
+    height: wrap;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-color: red;
+  }
