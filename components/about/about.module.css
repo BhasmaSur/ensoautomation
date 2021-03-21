@@ -1,79 +1,39 @@
-/* .heading{
-    margin: 2rem;
-    margin-top: 5rem;
-    text-align: center;
-}
-.motto{
-    display: flex;
-    width: fit-content;
-    margin: auto;
-    max-width: 40rem;
-    justify-content: center;
-    flex-direction: column;
-}
-.pic{
-    display: flex;
-    width: fit-content;
-    margin: auto;
-    max-width: 40rem;
-    justify-content: center;
-    flex-direction: column;
-}
-.details{
-    display: flex;
-    width: fit-content;
-    margin: auto;
-    margin-top: 1rem;
-    max-width: 40rem;
-    justify-content: center;
-    flex-direction: column;
-}
-.status{
-    display: flex;
-    width: fit-content;
-    margin: auto;
-    margin-top:-10px;
-    max-width: 40rem;
-    justify-content: center;
-    flex-direction: column;
-} */
-
 .aboutBox{
-    margin-top: 7rem;
-    padding-bottom: 7rem;
+    padding:2.34vw;
+    padding-top: 13vh;
+    height:185vh;
+    width: 100%;
     background:#F7F7F8;
 }
 .aboutHeading{
-    margin: 3rem;
     text-align: left;
-    font: normal normal normal 64px/74px Baskerville;
+    font: normal normal normal 4.1vw/10vh Baskerville;
     letter-spacing: 0px;
     color: #1D3558;
     opacity: 1;
 }
 .aboutContent{
-    margin: 3rem;
     text-align: left;
-    font: normal normal normal 20px/30px ProximaRegular;
+    margin-top: 12px;
+    font: normal normal normal 1.3vw/4.2vh ProximaRegular;
     letter-spacing: 0px;
     color: #1D3558;
     opacity: 1;
 }
 .aboutContent2{
-    margin-left:3rem;
-    margin-top: -2.5rem;
-    font: normal normal normal 20px/30px ProximaRegular;
     text-align: left;
+    margin-top: -2vh;
+    font: normal normal normal 1.3vw/4.2vh ProximaRegular;
     letter-spacing: 0px;
     color: #1D3558;
     opacity: 1;
 }
 .aboutBold{
     text-align: left;
-    font: normal normal bold 20px/30px ProximaRegular;
+    font: normal normal bold 1.3vw/4.2vh Proxima;
     letter-spacing: 0px;
     color: #1D3558;
 }
 .aboutImage{
-    margin-left: 3rem;
+    margin-top: 10.19vh;
 }

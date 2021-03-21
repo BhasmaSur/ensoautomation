@@ -12,7 +12,6 @@ export const FOOTER = () => {
                <div className="col-lg-3 col-xs-12">
                     <div className={styles.img}>
                     <img
-                    className="d-block w-100"
                     src="/images/logo-footer.svg"
                     alt="First slide"
                     height="99px"

@@ -7,11 +7,11 @@ export const TOOLBAR = (props) => {
 
 
   return (
-    <Navbar  collapseOnSelect expand="lg" bg="light" fixed="top" variant="dark">
+<Navbar  collapseOnSelect expand="lg" bg="light" fixed="top" variant="dark">
       <Navbar.Brand href="#home">
       <img
-                    className="d-block w-100"
-                    src="/images/logo.PNG"
+                    className={styles.logo}
+                    src="/images/logo.svg"
                     alt="First slide"
                 />
       </Navbar.Brand>
@@ -39,5 +39,6 @@ export const TOOLBAR = (props) => {
         </Nav>
       </Navbar.Collapse>
     </Navbar>
+    
   )
 }

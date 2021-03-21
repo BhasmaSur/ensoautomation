@@ -1,11 +1,18 @@
 .box{
-    padding: 3rem;
-    padding-left: auto;
+    padding:2.34vw;
+    padding-top: 20vh;
+    height:116vh;
+    width: 100%;
+}
+.headingBox{
+    width: 100vw;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
 }
 .heading1{
-    margin-top: 2rem;
     text-align: center;
-    font: normal normal normal 20px/24px Proxima Nova;
+    font: normal normal normal 1.302vw/3.43vh ProximaRegular;
     letter-spacing: 0px;
     color: #1D3558;
     opacity: 1;
@@ -13,7 +20,7 @@
 .heading2{
     margin-top: 2rem;
     text-align: center;
-    font: normal normal normal 64px/74px Baskerville;
+    font: normal normal normal 4.16vw/9.81vh Baskerville;
     letter-spacing: 0px;
     color: #1D3558;
     opacity: 1;
@@ -22,8 +29,8 @@
     width: 70%;
     margin: auto;
     margin-top: -1rem;
-    text-align: left;
-    font: normal normal normal 64px/74px Baskerville;
+    text-align: center;
+    font: normal normal normal 4.16vw/9.81vh Baskerville;
     letter-spacing: 0px;
     color: #1D3558;
     opacity: 1;
@@ -32,34 +39,51 @@
     margin:auto;
     margin-bottom: 1rem;
     text-align: left;
-    font: normal normal bold 24px/30px Proxima;
+    font: normal normal 1.8vw/3.97vh Baskerville;
     letter-spacing: 0px;
     color: #1D3558;
     opacity: 1;
 }
 .sectionHeading2{
     margin:auto;
-    margin-bottom: 3rem;
+    margin-bottom: 5.15vh;
     text-align: left;
-    font: normal normal bold 24px/30px Proxima;
+    font: normal normal bold 1.56vw/3.97vh ProximaRegular;
     letter-spacing: 0px;
     color: rgb(199, 194, 194);
     opacity: 1;
 }
 .box2{
-    margin: auto;
-    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 96%;
     padding: 3rem;
 }
 .sectionContentRow{
     margin:0.2rem;
     text-align: left;
-    font: normal normal normal 24px/30px Proxima Nova;
+    font: normal normal normal 1.04vw/3.97vh ProximaRegular;
     letter-spacing: 0px;
     color: #1D3558;
     opacity: 1;
 }
-
+.sectionMobile{
+    margin-top:24px;
+    margin-bottom: -10px;
+    text-align: left;
+    font: normal normal normal 1.04vw/3.97vh ProximaRegular;
+    letter-spacing: 0px;
+    color: #1D3558;
+    opacity: 1;
+}
+.sectionContentRow1{
+    margin-bottom: -6px;
+    text-align: left;
+    font: normal normal normal 1.04vw/3.97vh ProximaRegular;
+    letter-spacing: 0px;
+    color: #1D3558;
+    opacity: 1;
+}
 .sectionBreak{
     height: 3rem;
 }
@@ -67,15 +91,16 @@
     padding-left: 0rem;
 }
 .leftMargin2{
-    padding-left: auto;
+    padding-left: 10rem;
 }
 .lineBox{
     background:#FFFFFF ;
-    margin-top: 1rem;
+    margin-top: 8.5vh;
+    margin-bottom: 8.5vh;
   }
   .lineBreak{
     margin: auto;
     width: 90%;
-    border: solid 2px;
+    border: solid 1px;
     background: #1D3558;
   }

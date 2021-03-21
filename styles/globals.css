@@ -40,3 +40,31 @@ a {
   font-weight: 500;
   font-display: swap;
 }
+@font-face {
+  font-family: "ProximaBold";
+  src: url("/fonts/proxima_ssv/Proxima Nova Bold.otf");
+  font-style: medium;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "ProximaBlack";
+  src: url("/fonts/proxima_ssv/Proxima Nova Black.otf");
+  font-style: medium;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "ProximaLight";
+  src: url("/fonts/proxima_ssv/Proxima Nova Alt Light.otf");
+  font-style: medium;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "ProximaAltBold";
+  src: url("/fonts/proxima_ssv/Proxima Nova Alt Bold.otf");
+  font-style: medium;
+  font-weight: 500;
+  font-display: swap;
+}

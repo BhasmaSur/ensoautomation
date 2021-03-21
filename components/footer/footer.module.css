@@ -4,7 +4,7 @@
   background: #F1FAEE;
 }
 .content1{
-  padding-left:3rem;
+  padding-left:2.34vw;
   padding-top: 2rem;
   text-align: left;
   font: normal normal normal 16px/24px ProximaRegular;
@@ -15,8 +15,9 @@
 .heading1{
   padding-left: 8rem;
   padding-top: 2rem;
+  margin-bottom: 5.15vh;
   text-align: left;
-  font: normal normal normal 28px/58px Baskerville;
+  font: normal normal normal 28px/28px Baskerville;
   letter-spacing: 0px;
   color: #1D3558;
   opacity: 1;
@@ -24,26 +25,27 @@
 .content2{
   padding-left: 8rem;
   text-align: left;
-  font: normal normal normal 16px/24px ProximaRegular;
+  font: normal normal normal 16px/12px ProximaRegular;
   letter-spacing: 0px;
   color: #1D3558;
   opacity: 1;
 }
 .inputBox{
   text-align: left;
+  margin-top:5.15vh;
 }
 .inputField1{
   width: 100%;
   height: 60px;
   padding-left: 1rem;
-  margin-bottom: .2rem;
+  margin-bottom: 0.25rem;
   border: 1px solid #8E9AAB;
-  font: normal normal normal 16px/24px ProximaRegular;
+  font: normal normal normal 16px/12px ProximaRegular;
   opacity: 1;
 }
 .inputField2{
   width: 100%;
-  height: 127px;
+  height: 124px;
   padding-left: 1rem;
   border: 1px solid #8E9AAB;
   font: normal normal normal 16px/24px ProximaRegular;
@@ -57,12 +59,12 @@
   float: right;
 }
 .btn{
-  width: 100px;
-  height: wrap;
+  width: 80px;
+  height: 48px;
   color: #FFFFFF;
   background: #1D3558 ;
   opacity: 1;
-  border-radius: 0.2rem;
+  font: normal normal normal 16px/24px ProximaRegular;
 } 
 .bg{
   padding-top: 1rem;
@@ -92,6 +94,9 @@
 }
 .lineBreak{
   margin: auto;
-  width: 90%;
+  width: 96%;
   background: #1D3558;
+}
+.img{
+  margin-left:2.34vw;
 }

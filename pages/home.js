@@ -24,25 +24,25 @@ export const HOME = ()=>{
            break;
          case 2 :
          window.scrollTo({
-            top:aboutSection.current.offsetTop,
+            top:aboutSection.current.offsetTop-120,
             behavior:"smooth"
          });
          break;
          case 3 :
          window.scrollTo({
-            top:servicesSection.current.offsetTop,
+            top:servicesSection.current.offsetTop-120,
             behavior:"smooth"
          });
          break;
          case 4 :
          window.scrollTo({
-            top:applicationSection.current.offsetTop,
+            top:applicationSection.current.offsetTop-120,
             behavior:"smooth"
          });
          break;
          case 5 :
          window.scrollTo({
-            top:contactSection.current.offsetTop,
+            top:contactSection.current.offsetTop-120,
             behavior:"smooth"
          });
          break;

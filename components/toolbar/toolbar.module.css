@@ -1,14 +1,15 @@
 .navbarlinks{
-    font: normal normal normal 20px/24px Proxima Nova;
+    font: normal normal normal 20px/24px ProximaRegular;
     color: #1D3558 !important;
+    margin-right:12px
 }
 .btn{
+    margin-right: 36px;
     width: 169px;
-    height: 72px;
+    height: 9.54vh;
     background: #1D3558 !important;
     color: #FFFFFF;
     opacity: 1;
-    border-radius: 1rem;
 }
 .navbartogglericonCustom {
     display: inline-block;
@@ -19,4 +20,8 @@
     background-position: center;
     background-size: 100%;
     background-color: red;
+  }
+  .logo{
+      margin-left: 36px;
+      height: 128px;
   }

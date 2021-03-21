@@ -6,7 +6,7 @@ export default function Home() {
       <>
       <Head>
         <title>Enso Automation</title>
-        <link rel="icon" href="/images/logo.png" />
+        <link rel="icon" href="/images/fevicon.png" />
       </Head>
       <HOME/>
       </>
