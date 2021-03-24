@@ -5,8 +5,10 @@ export const CONTACT=()=>{
             <div>
                 <p className={styles.heading1}>Contact Us</p>
             </div>
-            <div className={styles.headingBox}>
+            <div className={styles.headingBox1}>
                 <p className={styles.heading2}>Lets talk about</p>
+            </div>
+            <div>
                 <p className={styles.heading3}>what we can work, build and play.</p>
             </div>
             <div className={styles.lineBox}>

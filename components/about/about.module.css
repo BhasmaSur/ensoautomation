@@ -1,39 +1,73 @@
 .aboutBox{
-    padding:2.34vw;
-    padding-top: 13vh;
-    height:185vh;
+    padding:2.25rem;
+    padding-top: 9rem;
+    padding-bottom: 9rem;
     width: 100%;
     background:#F7F7F8;
 }
 .aboutHeading{
     text-align: left;
-    font: normal normal normal 4.1vw/10vh Baskerville;
+    font: normal normal normal 4rem/4.625rem Baskerville;
     letter-spacing: 0px;
     color: #1D3558;
     opacity: 1;
 }
 .aboutContent{
     text-align: left;
-    margin-top: 12px;
-    font: normal normal normal 1.3vw/4.2vh ProximaRegular;
+    margin-top: 0.75rem;
+    font: normal normal normal 1.25rem/1.875rem ProximaRegular;
     letter-spacing: 0px;
     color: #1D3558;
     opacity: 1;
 }
 .aboutContent2{
     text-align: left;
-    margin-top: -2vh;
-    font: normal normal normal 1.3vw/4.2vh ProximaRegular;
+    margin-top: -1rem;
+    font: normal normal normal 1.25rem/1.875rem ProximaRegular;
     letter-spacing: 0px;
     color: #1D3558;
     opacity: 1;
 }
 .aboutBold{
     text-align: left;
-    font: normal normal bold 1.3vw/4.2vh Proxima;
+    font: normal normal bold 1.25rem/1.875rem Proxima;
     letter-spacing: 0px;
     color: #1D3558;
 }
 .aboutImage{
-    margin-top: 10.19vh;
+    width: 100%;
+    height: 50%;
+    margin-top: 7.5rem;
+}
+@media (max-width:420px){
+    .aboutHeading{
+        text-align: center;
+        font: normal normal normal 4rem/4.625rem Baskerville;
+        letter-spacing: 0px;
+        color: #1D3558;
+        opacity: 1;
+        margin-bottom: 3rem;
+    }
+    .aboutContent{
+        text-align: left;
+        margin-top: 0.75rem;
+        font: normal normal normal 2rem/3.5rem ProximaRegular;
+        letter-spacing: 0px;
+        color: #1D3558;
+        opacity: 1;
+    }
+    .aboutContent2{
+        text-align: left;
+        margin-top: -1rem;
+        font: normal normal normal 2rem/3.5rem ProximaRegular;
+        letter-spacing: 0px;
+        color: #1D3558;
+        opacity: 1;
+    }
+    .aboutBold{
+        text-align: left;
+        font: normal normal bold 2rem/3.5rem Proxima;
+        letter-spacing: 0px;
+        color: #1D3558;
+    }
 }

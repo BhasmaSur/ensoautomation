@@ -25,3 +25,20 @@
       margin-left: 36px;
       height: 128px;
   }
+  @media (max-width:420px){
+    .logo{
+        margin-left: 18px;
+        height: 80px;
+    } 
+    .navbartogglericonCustom {
+        display: inline-block;
+        width: wrap;
+        height: wrap;
+        vertical-align: middle;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        background-color: red;
+        margin-right: 18px;
+      }
+  }
