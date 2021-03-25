@@ -32,6 +32,7 @@
 .inputBox{
   text-align: left;
   margin-top:5.15vh;
+  margin-left: 8rem;
 }
 .inputField1{
   width: 100%;
@@ -115,6 +116,7 @@
   }
   .heading1{
     padding-top: 2rem;
+    padding-left: 0rem;
     margin-bottom: 5.15vh;
     text-align: center;
     font: normal normal normal 28px/28px Baskerville;
@@ -123,6 +125,7 @@
     opacity: 1;
   }
   .content2{
+    padding-left: 0rem;
     text-align: center;
     font: normal normal normal 16px/12px ProximaRegular;
     letter-spacing: 0px;
@@ -136,4 +139,45 @@
     color: #1D3558;
     opacity: 1;
   }
+  .inputBox{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+    margin-top:5.15vh;
+    margin-left: 0px;
+  }
+  .inputField1{
+    width: 100%;
+    height: 60px;
+    padding-left: 1rem;
+    text-align: center;
+    margin-bottom: 0.25rem;
+    border: 1px solid #8E9AAB;
+    font: normal normal normal 16px/12px ProximaRegular;
+    opacity: 1;
+  }
+  .inputField2{
+    width: 100%;
+    height: 124px;
+    padding-left: 1rem;
+    text-align: center;
+    border: 1px solid #8E9AAB;
+    font: normal normal normal 16px/24px ProximaRegular;
+    opacity: 1;
+  }
+  
+  .btnBox{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    float: right;
+  }
+  .btn{
+    width: 80px;
+    height: 48px;
+    color: #FFFFFF;
+    background: #1D3558 ;
+    opacity: 1;
+    font: normal normal normal 16px/24px ProximaRegular;
+  } 
 }

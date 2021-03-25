@@ -148,24 +148,23 @@
         height: 250px;
     }
     .outerBox{
-        left: 56.5%;
+        left: 50%;
         top:2rem;
         position: absolute;
         width: 25rem;
+        padding-right: 2rem;
     }
     .boxc1{
         text-align: center;
     }
     .boxc12{
         text-align: center;
-        padding-right:1rem;
     }
     .boxc2{
         text-align: center;
     }
     .boxc22{
         text-align: center;
-        padding-right:1rem;
     }
     .outerBox2{
         left: 2%;
@@ -194,4 +193,7 @@
         color: #FFFFFF;
         opacity: 1;
     }
+}
+.sr-only{
+    display: none !important;
 }

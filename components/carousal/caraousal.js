@@ -2,6 +2,8 @@ import Carousel from "react-bootstrap/Carousel";
 import styles from "../carousal/caraousal.module.css";
 
 export const CARAOUSAL = () => {
+
+
   return (
     <div>
       <div className={styles.box1}>
@@ -23,7 +25,7 @@ export const CARAOUSAL = () => {
         </div>
 
         <div className={styles.caraouslBox}>
-          <Carousel>
+          <Carousel controls={true} indicators={true}>
             <Carousel.Item>
               <img
                 className={styles.imgHeight}

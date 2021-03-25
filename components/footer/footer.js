@@ -54,7 +54,8 @@ export const FOOTER = () => {
           <div className="col-lg-6 col-xs-12">
             <div className={styles.heading1}>
               <p>Contact Us</p>
-              <div className={styles.inputBox}>
+            </div>
+            <div className={styles.inputBox}>
                 <div className="row">
                   <div className="col-lg-6 col-xs-12">
                     <input
@@ -79,7 +80,6 @@ export const FOOTER = () => {
                   </div>
                 </div>
               </div>
-            </div>
           </div>
         </div>
       </div>

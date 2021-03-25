@@ -2,12 +2,15 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import styles from '../toolbar/toolbar.module.css'
-import {useRef} from 'react';
+import {useRef,useState} from 'react';
+
 export const TOOLBAR = (props) => {
+
+const[expanded,setExpanded]=useState(false);
 
 
   return (
-<Navbar  collapseOnSelect expand="lg" bg="light" fixed="top" variant="dark">
+<Navbar expanded={expanded}  collapseOnSelect expand="lg" bg="light" fixed="top" variant="dark">
       <Navbar.Brand href="#home">
       <img
                     className={styles.logo}
@@ -15,9 +18,9 @@ export const TOOLBAR = (props) => {
                     alt="First slide"
                 />
       </Navbar.Brand>
-      <Navbar.Toggle className={styles.navbartogglericonCustom} aria-controls="responsive-navbar-nav" />
+      <Navbar.Toggle onClick={() => setExpanded((expanded) => (expanded = !expanded))} className={styles.navbartogglericonCustom} aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
-        <Nav>
+        <Nav onClick={() => setExpanded((expanded) => (expanded = !expanded))}>
           <Nav.Link className={styles.navbarlinks} onClick={()=>props.navigatToFunction(1)}>Home</Nav.Link>
           <Nav.Link className={styles.navbarlinks} onClick={()=>props.navigatToFunction(2)}>About</Nav.Link>
           <Nav.Link className={styles.navbarlinks} onClick={()=>props.navigatToFunction(3)}>Our Services</Nav.Link>
