@@ -21,10 +21,8 @@ export const FOOTER = () => {
             </div>
             <div className={styles.content1}>
               <p>
-                Enso Automation is a leading automation design consultancy
-                company with specialisations In domains like hospitality,
-                military, automobiles. Known for their quick and reliable
-                applications and end to end development.
+                We focus on developing the best solutions in industrial automation.
+                From conceptual design to after-sales service, we accompany our customers through every step of the way.
               </p>
             </div>
             <div className={styles.content1}>
