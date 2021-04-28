@@ -21,7 +21,7 @@ export const CONTACT=()=>{
                         <p className={styles.sectionHeading1}>Santosh Dengle</p>
                         <p className={styles.sectionContentRow}>Founder & Managing Director</p>
                         <p className={styles.sectionMobile}>+91-98906 92969</p>
-                        <p className={styles.sectionContentRow}>santoshdengle@ensoautomationindia.com</p> 
+                        <p className={styles.sectionContentRow}>ssdengle@ensoautomationindia.com</p> 
                     </div>
                 <div className="col-lg-4 col-xs-12">
                      <div className={styles.leftMargin2}>
