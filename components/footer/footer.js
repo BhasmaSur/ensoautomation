@@ -1,11 +1,16 @@
 import styles from "./footer.module.css";
+import emailjs from "emailjs-com";
 
-const giveAlertMessage = () => {
-  //console.log("its working");
-  alert(
-    "This functionality is under development, try to call or email us, mobile : +91-98906 92969, email : santoshdengle@ensoautomationindia.com"
-  );
-};
+function sendEmailToAdmin(e){
+  e.preventDefault()
+  emailjs.sendForm('service_7a0ouhf','template_590uigs',e.target,'user_WwP7JqM13esjlQSGLhzfU')
+    .then((result)=>{
+      alert("Mail is sent successfully, our team will contact you soon");
+    },(error)=>{
+      alert("Somthing went wrong, retry please");
+    })
+  e.target.reset()
+}
 export const FOOTER = () => {
   return (
     <>
@@ -21,8 +26,10 @@ export const FOOTER = () => {
             </div>
             <div className={styles.content1}>
               <p>
-                We focus on developing the best solutions in industrial automation.
-                From conceptual design to after-sales service, we accompany our customers through every step of the way.
+                Enso Automation is a leading automation design consultancy
+                company with specialisations In domains like hospitality,
+                military, automobiles. Known for their quick and reliable
+                applications and end to end development.
               </p>
             </div>
             <div className={styles.content1}>
@@ -55,27 +62,32 @@ export const FOOTER = () => {
             </div>
             <div className={styles.inputBox}>
                 <div className="row">
-                  <div className="col-lg-6 col-xs-12">
-                    <input
-                      className={styles.inputField1}
-                      placeholder="Enter your Name"
-                    ></input>
-                    <input
-                      className={styles.inputField1}
-                      placeholder="Enter your Email"
-                    ></input>
-                  </div>
-                  <div className="col-lg-6 col-xs-12">
-                    <input
-                      className={styles.inputField2}
-                      placeholder="Talk to us here, type your message"
-                    ></input>
-                    <div className={styles.btnBox}>
-                      <button onClick={giveAlertMessage} className={styles.btn}>
-                        Send
-                      </button>
+                  <form onSubmit={sendEmailToAdmin}>
+                    <div className="col-lg-6 col-xs-12">
+                      <input
+                        className={styles.inputField1}
+                        placeholder="Enter your Name"
+                        name="from_name"
+                      ></input>
+                      <input
+                        className={styles.inputField1}
+                        placeholder="Enter your Email"
+                        name="from_email"
+                      ></input>
                     </div>
-                  </div>
+                    <div className="col-lg-6 col-xs-12">
+                      <input
+                        className={styles.inputField2}
+                        placeholder="Talk to us here, type your message"
+                        name="message"
+                      ></input>
+                      <div className={styles.btnBox}>
+                        <button type="submit" className={styles.btn}>
+                          Send
+                        </button>
+                      </div>
+                    </div>
+                  </form>
                 </div>
               </div>
           </div>
