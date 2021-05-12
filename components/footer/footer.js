@@ -3,7 +3,7 @@ import emailjs from "emailjs-com";
 
 function sendEmailToAdmin(e){
   e.preventDefault()
-  emailjs.sendForm('service_7a0ouhf','template_590uigs',e.target,'user_WwP7JqM13esjlQSGLhzfU')
+  emailjs.sendForm('service_j4ds18j','template_590uigs',e.target,'user_WwP7JqM13esjlQSGLhzfU')
     .then((result)=>{
       alert("Mail is sent successfully, our team will contact you soon");
     },(error)=>{
