@@ -98,6 +98,97 @@ export const CARAOUSAL = () => {
               </div>
               
             </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className={styles.imgHeight}
+                src="/images/Frame 3.png"
+                alt="Third slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className={styles.imgHeight}
+                src="/images/Frame 4.png"
+                alt="Third slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className={styles.imgHeight}
+                src="/images/Frame 5.png"
+                alt="Third slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className={styles.imgHeight}
+                src="/images/Frame 6.png"
+                alt="Third slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className={styles.imgHeight}
+                src="/images/Frame 7.png"
+                alt="Third slide"
+              />              
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className={styles.imgHeight}
+                src="/images/Frame 8.png"
+                alt="Third slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className={styles.imgHeight}
+                src="/images/Frame 9.png"
+                alt="Third slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className={styles.imgHeight}
+                src="/images/Frame 10.png"
+                alt="Third slide"
+              />             
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className={styles.imgHeight}
+                src="/images/Frame 11.png"
+                alt="Third slide"
+              />              
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className={styles.imgHeight}
+                src="/images/Frame 12.png"
+                alt="Third slide"
+              />             
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className={styles.imgHeight}
+                src="/images/Frame 13.png"
+                alt="Third slide"
+              />           
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className={styles.imgHeight}
+                src="/images/Frame 14.png"
+                alt="Third slide"
+              />             
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className={styles.imgHeight}
+                src="/images/Frame 15.png"
+                alt="Third slide"
+              />            
+            </Carousel.Item>
           </Carousel>
         </div>
       </div>
