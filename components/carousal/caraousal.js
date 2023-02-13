@@ -29,78 +29,6 @@ export const CARAOUSAL = () => {
             <Carousel.Item>
               <img
                 className={styles.imgHeight}
-                src="/images/c1.PNG"
-                alt="First slide"
-              />
-              <div className={styles.outerBox}>
-                <div className={styles.boxc1}>
-                  <p className={styles.boxHeading}>
-                    Flexible automations to improve production efficiency
-                  </p>
-                </div>
-                <div className={styles.boxc12}>
-                  <p className={styles.boxCaption}>
-                    Flexible Automation is a concept that allows a robotic cell
-                    to be re-tasked quickly and easily allowing for multiple
-                    automation processes while requiring minimal change
-                    over. The main challenge has been dealing with parts that
-                    are difficult to feed and those with high mix / low volume.
-                    Traditionally, for many of these applications, automation
-                    has been cost prohibitive. Investing in automation with
-                    Re-deployable Assets now makes these applications feasible.
-                  </p>
-                </div>
-              </div>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className={styles.imgHeight}
-                src="/images/c2.PNG"
-                alt="Second slide"
-              />
-              <div className={styles.outerBox}>
-                <div className={styles.boxc2}>
-                  <p className={styles.boxHeading}>
-                    Innovative, high-performance solutions for complex process
-                    automations
-                  </p>
-                </div>
-                <div className={styles.boxc22}>
-                  <p className={styles.boxCaption}>
-                    Reliable, easy-to-use still innovative solutions with
-                    responsive and expert services. Your path to improved
-                    performance starts here.
-                  </p>
-                </div>
-              </div>
-              
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className={styles.imgHeight}
-                src="/images/c3.PNG"
-                alt="Third slide"
-              />
-              <div className={styles.outerBox2}>
-                <div className={styles.boxc3}>
-                  <p className={styles.boxHeading}>
-                    High technology, low-cost automations
-                  </p>
-                </div>
-                <div className={styles.boxc32}>
-                  <p className={styles.boxCaption}>
-                    It is a technology that creates some degree of low-cost
-                    automation services around the existing equipment, tool,
-                    methods and people using mostly standard components available
-                    in the market.
-                  </p>
-                </div>
-              </div>
-              
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className={styles.imgHeight}
                 src="/images/Frame 3.png"
                 alt="Third slide"
               />
@@ -188,6 +116,78 @@ export const CARAOUSAL = () => {
                 src="/images/Frame 15.png"
                 alt="Third slide"
               />            
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className={styles.imgHeight}
+                src="/images/c1.PNG"
+                alt="First slide"
+              />
+              <div className={styles.outerBox}>
+                <div className={styles.boxc1}>
+                  <p className={styles.boxHeading}>
+                    Flexible automations to improve production efficiency
+                  </p>
+                </div>
+                <div className={styles.boxc12}>
+                  <p className={styles.boxCaption}>
+                    Flexible Automation is a concept that allows a robotic cell
+                    to be re-tasked quickly and easily allowing for multiple
+                    automation processes while requiring minimal change
+                    over. The main challenge has been dealing with parts that
+                    are difficult to feed and those with high mix / low volume.
+                    Traditionally, for many of these applications, automation
+                    has been cost prohibitive. Investing in automation with
+                    Re-deployable Assets now makes these applications feasible.
+                  </p>
+                </div>
+              </div>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className={styles.imgHeight}
+                src="/images/c2.PNG"
+                alt="Second slide"
+              />
+              <div className={styles.outerBox}>
+                <div className={styles.boxc2}>
+                  <p className={styles.boxHeading}>
+                    Innovative, high-performance solutions for complex process
+                    automations
+                  </p>
+                </div>
+                <div className={styles.boxc22}>
+                  <p className={styles.boxCaption}>
+                    Reliable, easy-to-use still innovative solutions with
+                    responsive and expert services. Your path to improved
+                    performance starts here.
+                  </p>
+                </div>
+              </div>
+              
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className={styles.imgHeight}
+                src="/images/c3.PNG"
+                alt="Third slide"
+              />
+              <div className={styles.outerBox2}>
+                <div className={styles.boxc3}>
+                  <p className={styles.boxHeading}>
+                    High technology, low-cost automations
+                  </p>
+                </div>
+                <div className={styles.boxc32}>
+                  <p className={styles.boxCaption}>
+                    It is a technology that creates some degree of low-cost
+                    automation services around the existing equipment, tool,
+                    methods and people using mostly standard components available
+                    in the market.
+                  </p>
+                </div>
+              </div>
+              
             </Carousel.Item>
           </Carousel>
         </div>
