@@ -21,59 +21,10 @@ a {
   box-sizing: border-box;
 }
 .navbarlinks{
-  font: normal normal normal 20px/24px Proxima Nova;
+  font: normal normal normal 20px/24px Baskerville;
   color: #1D3558;
 }
-@font-face {
-  font-family: "Proxima";
-  src: url("/fonts/proxima_ssv/Proxima Nova Extrabold.otf");
-  font-style: medium;
-  font-weight: 500;
-  font-display: swap;
-}
 
-@font-face {
-  font-family: "ProximaThin";
-  src: url("/fonts/proxima_ssv/Proxima Nova Thin.otf");
-  font-style: medium;
-  font-weight: 500;
-  font-display: swap;
-}
-@font-face {
-  font-family: "ProximaRegular";
-  src: url("/fonts/proxima_ssv/ProximaNova-Regular.otf");
-  font-style: medium;
-  font-weight: 500;
-  font-display: swap;
-}
-@font-face {
-  font-family: "ProximaBold";
-  src: url("/fonts/proxima_ssv/Proxima Nova Bold.otf");
-  font-style: medium;
-  font-weight: 500;
-  font-display: swap;
-}
-@font-face {
-  font-family: "ProximaBlack";
-  src: url("/fonts/proxima_ssv/Proxima Nova Black.otf");
-  font-style: medium;
-  font-weight: 500;
-  font-display: swap;
-}
-@font-face {
-  font-family: "ProximaLight";
-  src: url("/fonts/proxima_ssv/Proxima Nova Alt Light.otf");
-  font-style: medium;
-  font-weight: 500;
-  font-display: swap;
-}
-@font-face {
-  font-family: "ProximaAltBold";
-  src: url("/fonts/proxima_ssv/Proxima Nova Alt Bold.otf");
-  font-style: medium;
-  font-weight: 500;
-  font-display: swap;
-}
 .carousel-control-next-icon{
   background-image : url('/images/next.svg') !important;
 }

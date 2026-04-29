@@ -12,7 +12,7 @@
 }
 .heading1{
     text-align: center;
-    font: normal normal normal 1.25rem/1.5rem ProximaRegular;
+    font: normal normal normal 1.25rem/1.5rem Baskerville;
     letter-spacing: 0px;
     color: #1D3558;
     opacity: 1;
@@ -48,7 +48,7 @@
     margin:auto;
     margin-bottom: 2.5rem;
     text-align: left;
-    font: normal normal bold 1.25rem/1.85rem ProximaRegular;
+    font: normal normal bold 1.25rem/1.85rem Baskerville;
     letter-spacing: 0px;
     color: rgb(199, 194, 194);
     opacity: 1;
@@ -62,7 +62,7 @@
 .sectionContentRow{
     margin:0.2rem;
     text-align: left;
-    font: normal normal normal 1rem/1.875rem ProximaRegular;
+    font: normal normal normal 1rem/1.875rem Baskerville;
     letter-spacing: 0px;
     color: #1D3558;
     opacity: 1;
@@ -71,7 +71,7 @@
     margin-top:1.5rem;
     margin-bottom: -10px;
     text-align: left;
-    font: normal normal normal 1rem/1.875rem ProximaRegular;
+    font: normal normal normal 1rem/1.875rem Baskerville;
     letter-spacing: 0px;
     color: #1D3558;
     opacity: 1;
@@ -79,7 +79,7 @@
 .sectionContentRow1{
     margin-bottom: -6px;
     text-align: left;
-    font: normal normal normal 1rem/1.875rem ProximaRegular;
+    font: normal normal normal 1rem/1.875rem Baskerville;
     letter-spacing: 0px;
     color: #1D3558;
     opacity: 1;
@@ -113,7 +113,7 @@
     }
     .heading1{
         text-align: center;
-        font: normal normal normal 2rem/3.5rem ProximaRegular;
+        font: normal normal normal 2rem/3.5rem Baskerville;
         letter-spacing: 0px;
         color: #1D3558;
         opacity: 1;
@@ -147,7 +147,7 @@
         margin:auto;
         margin-bottom: 3rem;
         text-align: left;
-        font: normal normal bold 2rem/1.85rem ProximaRegular;
+        font: normal normal bold 2rem/1.85rem Baskerville;
         letter-spacing: 0px;
         color: rgb(199, 194, 194);
         opacity: 1;
@@ -161,7 +161,7 @@
     .sectionContentRow{
         margin-bottom:3rem;
         text-align: left;
-        font: normal normal normal 2rem/1.875rem ProximaRegular;
+        font: normal normal normal 2rem/1.875rem Baskerville;
         letter-spacing: 0px;
         color: #1D3558;
         opacity: 1;
@@ -170,7 +170,7 @@
         margin-top:1.5rem;
         margin-bottom: 0.5px;
         text-align: left;
-        font: normal normal normal 2rem/1.875rem ProximaRegular;
+        font: normal normal normal 2rem/1.875rem Baskerville;
         letter-spacing: 0px;
         color: #1D3558;
         opacity: 1;
@@ -178,7 +178,7 @@
     .sectionContentRow1{
         margin-bottom: 0.5rem;
         text-align: left;
-        font: normal normal normal 2rem/1.875rem ProximaRegular;
+        font: normal normal normal 2rem/1.875rem Baskerville;
         letter-spacing: 0px;
         color: #1D3558;
         opacity: 1;

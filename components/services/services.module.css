@@ -14,14 +14,14 @@
 }
 .serviceContent{
     text-align: left;
-    font: normal normal normal 1.25rem/1.875rem ProximaRegular;
+    font: normal normal normal 1.25rem/1.875rem Baskerville;
     letter-spacing: 0px;
     color: #1D3558;
     opacity: 1;
 }
 .servicContent2{
     text-align: left;
-    font: normal normal normal 1.25rem/1.875rem ProximaRegular;
+    font: normal normal normal 1.25rem/1.875rem Baskerville;
     letter-spacing: 0px;
     color: #1D3558;
     opacity: 1;
@@ -33,7 +33,7 @@
 .serviceBold{
     margin-bottom: 1.4rem;
     text-align: left;
-    font: normal normal bold 1.5rem/2.25rem ProximaBold;
+    font: normal normal bold 1.5rem/2.25rem Baskerville;
     letter-spacing: 0px;
     color: #1D3558;
     opacity: 1;
@@ -41,7 +41,7 @@
 .serviceContent3{
     margin-top: -1rem;
     text-align: left;
-    font: normal normal normal 1.25rem/1.875rem ProximaRegular;
+    font: normal normal normal 1.25rem/1.875rem Baskerville;
     letter-spacing: 0px;
     color: #1D3558;
     opacity: 1;
@@ -49,7 +49,7 @@
 .serviceContent4{
     margin-top: 3rem;
     text-align: left;
-    font: normal normal normal 1.25rem/1.875rem ProximaRegular;
+    font: normal normal normal 1.25rem/1.875rem Baskerville;
     letter-spacing: 0px;
     color: #1D3558;
     opacity: 1;
@@ -65,14 +65,14 @@
     }
     .serviceContent{
         text-align: left;
-        font: normal normal normal 2rem/3.5rem ProximaRegular;
+        font: normal normal normal 2rem/3.5rem Baskerville;
         letter-spacing: 0px;
         color: #1D3558;
         opacity: 1;
     }
     .servicContent2{
         text-align: left;
-        font: normal normal normal 2rem/3.5rem ProximaRegular;
+        font: normal normal normal 2rem/3.5rem Baskerville;
         letter-spacing: 0px;
         color: #1D3558;
         opacity: 1;
@@ -84,7 +84,7 @@
     .serviceBold{
         margin-bottom: 1.4rem;
         text-align: left;
-        font: normal normal bold 2rem/3.5rem ProximaBold;
+        font: normal normal bold 2rem/3.5rem Baskerville;
         letter-spacing: 0px;
         color: #1D3558;
         opacity: 1;
@@ -92,7 +92,7 @@
     .serviceContent3{
         margin-top: -1rem;
         text-align: left;
-        font: normal normal normal 2rem/3.5rem ProximaRegular;
+        font: normal normal normal 2rem/3.5rem Baskerville;
         letter-spacing: 0px;
         color: #1D3558;
         opacity: 1;
@@ -100,7 +100,7 @@
     .serviceContent4{
         margin-top: 3rem;
         text-align: left;
-        font: normal normal normal 2rem/3.5rem ProximaRegular;
+        font: normal normal normal 2rem/3.5rem Baskerville;
         letter-spacing: 0px;
         color: #1D3558;
         opacity: 1;
