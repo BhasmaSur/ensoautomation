@@ -40,7 +40,7 @@ a {
   font-display: swap;
 }
 @font-face {
-  font-family: "ProximaRegular";
+  font-family: "";
   src: url("/fonts/proxima_ssv/ProximaNova-Regular.otf");
   font-style: medium;
   font-weight: 500;
